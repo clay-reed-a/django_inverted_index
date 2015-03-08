@@ -1,0 +1,173 @@
+- fields: {published: ! '2015-03-08 21:06:03+00:00', summary: "PS2 Console, controller
+      (not wireless), power cables, and audio/visual cable. \nOriginally purchased
+      to try a specific game a few times and sparingly watch DVDs. Not used much at
+      all, but kept very clean. Pick-up only in West Bed-Stuy.", title: PS2 Gaming
+      Console with controller (West Bed-Stuy) &#x0024;65, url: 'http://newyork.craigslist.org/brk/vgm/4923045821.html'}
+  model: api.listing
+  pk: 1
+- fields: {published: ! '2015-03-08 21:05:20+00:00', summary: "Genuine Microsoft Xbox
+      360 Controller \nPC Compatible \nRetail Box (New) \nColor: All Black \nThis
+      is wired controller. \n2 sold. This is the last one. \n$45", title: 'Genuine
+      Microsoft Xbox 360 Controller, PC Compatible (Retail Box, New) (Upper East Side)
+      &#x0024;45', url: 'http://newyork.craigslist.org/mnh/vgm/4886321754.html'}
+  model: api.listing
+  pk: 2
+- fields: {published: ! '2015-03-08 21:04:10+00:00', summary: "This listing is for
+      one hand held game: Dominoes (like New). \nRadica Model 3664, Requires 2 AAA
+      batteries \nSize: 5 1/4\" x 3 1/2\" x 3/4\" thick \nExcellent working condition.
+      Rarely used. \nIncludes manual. \n$15", title: Radica Dominoes  hand held game
+      (Like New) (Upper East Side) &#x0024;15, url: 'http://newyork.craigslist.org/mnh/vgm/4896676866.html'}
+  model: api.listing
+  pk: 3
+- fields: {published: ! '2015-03-08 21:01:42+00:00', summary: "Sony PlayStation 1
+      (PS1) Controller \nI don't currently have a PS1 system to retest the controller.
+      If buyer has a problem, I would gladly refund your money.", title: Sony PlayStation
+      1 (PS1) Controller (Upper East Side) &#x0024;10, url: 'http://newyork.craigslist.org/mnh/vgm/4897643660.html'}
+  model: api.listing
+  pk: 4
+- fields: {published: ! '2015-03-08 21:01:18+00:00', summary: "Lots consists of 3
+      VMUS, a Gameshark and 1 Firepro Wrestling D and a Sega Booting Disc. \nThe Firepro
+      Wrestling D is opened but rarely played. \nNote: Fire Pro D Menus are in Japanese
+      but they are lots of translations guides on the internet if you need [...]",
+    title: 'Sega Dreamcast Lot: 3 VMUS, Gameshark and 1 Firepro Wrestling D. (Upper
+      East Side) &#x0024;50', url: 'http://newyork.craigslist.org/mnh/vgm/4897678769.html'}
+  model: api.listing
+  pk: 5
+- fields: {published: ! '2015-03-08 20:57:37+00:00', summary: "Up for sale is a video
+      game \nBrand: Rockstar Games \nTitle: Grand Theft Auto GTA Liberty City Stories
+      \nGenre: Action Adventure \nRated Mature \nFor Sony Playstation 2 PS2 Video
+      Game System Console \nCondition: In very good working condition. Tested. \nPri
+      [...]", title: Grand Theft Auto GTA Liberty City Stories Playstation 2 Video
+      Game &#x0024;15, url: 'http://newyork.craigslist.org/que/vgm/4883445375.html'}
+  model: api.listing
+  pk: 6
+- fields: {published: ! '2015-03-08 20:57:36+00:00', summary: "Up for sale is Soul
+      Calibur 4 IV \nFor: Playstation 3 PS3 Video Game System Console \nGenre: Fighting
+      \nStudio: Bandai \nNo case or manual included \nCondition In very good working
+      condition. \nPrice $15 \nCall text \n <a href=\"/fb/nyc/vgm/4883460616\" class=\"showcontact\"
+      title=\"click to show contact info\">show contact info</a>", title: Soul Calibur
+      IV 4 Sony Playstation 3 PS3 Sword Fighting Video Game &#x0024;15, url: 'http://newyork.craigslist.org/que/vgm/4883460616.html'}
+  model: api.listing
+  pk: 7
+- fields: {published: ! '2015-03-08 20:53:26+00:00', summary: 'Original xbox 360 white
+      with all the wires, 1 controller, with one game NBA 2K13.. reason for selling
+      is bc i just dont need it.. it was packed away for about 3 months .. i just
+      turned it on and was able to play it with no problem..pretty clean consi [...]',
+    title: Xbox 360 (Original) (Kingston) &#x0024;75, url: 'http://newyork.craigslist.org/wch/vgm/4923027835.html'}
+  model: api.listing
+  pk: 8
+- fields: {published: ! '2015-03-08 20:53:06+00:00', summary: "Selling my xbox 360
+      which is modded with Xk3y mod chip. It allows you to play your back ups right
+      from a external hard drive. No need to burn discs. \nhttps://www.youtube.com/watch?v=hrlogOHe6b8
+      \nThe Xbox comes with the one controller, power adapter,  [...]", title: Xbox
+      360 Xk3y modded + 1TB  harddrive (massapequa) &#x0024;349, url: 'http://newyork.craigslist.org/lgi/vgm/4886987514.html'}
+  model: api.listing
+  pk: 9
+- fields: {published: ! '2015-03-08 20:52:31+00:00', summary: "Up for sale is a video
+      game \nBrand: Ubisoft \nTitle: Tom Clancy's Splinter Cell Pandora Tomorrow \nGenre:
+      Action Adventure \nRated Teen \nFor Sony Playstation 2 PS2 Video Game System
+      Console \nCondition: In very good working condition. Tested. \nPrice: $10 [...]",
+    title: Tom Clancy's Splinter Cell Pandora Tomorrow Playstation 2 Video Game &#x0024;10,
+    url: 'http://newyork.craigslist.org/que/vgm/4885960297.html'}
+  model: api.listing
+  pk: 10
+- fields: {published: ! '2015-03-08 20:51:09+00:00', summary: "as title claims. you
+      get... \nKingdom Hearts 2.5 remix \ngod of war saga collection \nmetal gear
+      revengance \nbayonetta \nfinal fantasy XIII lightning returns \ndragons dogma
+      dark arisen \ncall at \nyou must come to me \nthree four seven four four seven
+      five  [...]", title: 'PS3 game package (Brooklyn, east new york) &#x0024;40',
+    url: 'http://newyork.craigslist.org/brk/vgm/4918372177.html'}
+  model: api.listing
+  pk: 11
+- fields: {published: ! '2015-03-08 20:49:44+00:00', summary: "Up for sale is a video
+      game \nBrand: Ubisoft \nTitle: Tom Clancy's Splinter Cell Stealth Action Redefined
+      \nGenre: Action Adventure \nRated Teen \nFor Sony Playstation 2 PS2 Video Game
+      System Console \nCondition: In very good working condition. Tested. \nPr [...]",
+    title: Tom Clancy's Splinter Cell Stealth Action Redefined PS2 Video Game &#x0024;10,
+    url: 'http://newyork.craigslist.org/que/vgm/4883519900.html'}
+  model: api.listing
+  pk: 12
+- fields: {published: ! '2015-03-08 20:49:07+00:00', summary: "Up for sale is power
+      ac cable adapter \nFor: Xbox 360 Pro Premium Elite Core Console System \nNo
+      power brick included. \nCondition In very good working condition. \nPrice $12
+      \nCall text \n <a href=\"/fb/nyc/vgm/4883445884\" class=\"showcontact\" title=\"click
+      to show contact info\">show contact info</a>", title: Grey Original Microsoft
+      Xbox 360 Power AC Cable Adapter &#x0024;12, url: 'http://newyork.craigslist.org/que/vgm/4883445884.html'}
+  model: api.listing
+  pk: 13
+- fields: {published: ! '2015-03-08 20:46:34+00:00', summary: "Selling my Xbox 360
+      with all necessary cables, 4 controllers and 8 games. \nFifa 12 \nFifa 13 \nGears
+      of War 3 \nHalo 4 \nCall of Duty Modern Warfare 2 \nCall of Duty Modern Warfare
+      3 \nBorderlands \nNBA 2k13 (no disk, downloaded to the Xbox) \nControllers ea
+      [...]", title: Xbox 360 + 4 controllers + 8 games (Brooklyn or Manhattan) &#x0024;130,
+    url: 'http://newyork.craigslist.org/brk/vgm/4923017931.html'}
+  model: api.listing
+  pk: 14
+- fields: {published: ! '2015-03-08 20:46:17+00:00', summary: "Nintendo Wii for sale
+      complete with the following (total value over $800) \n2 controllers and nunchucks,
+      1 guitar, 1 skate/snowboard, 1 gun for buck hunter \nwii sports & sports resort
+      \nGoldenEye 007 \nBig Buck Hunter Pro \nTony Hawk Shred \nMonopoly \nSup [...]",
+    title: Nintendo Wii (Upper West Side) &#x0024;150, url: 'http://newyork.craigslist.org/mnh/vgm/4923017486.html'}
+  model: api.listing
+  pk: 15
+- fields: {published: ! '2015-03-08 20:41:48+00:00', summary: Selling it because i
+      got a newer card., title: MSI R7870 HAWK Radeon HD 7870 GHz Edition 2GB 1 (Malverne)
+      &#x0024;150, url: 'http://newyork.craigslist.org/lgi/vgm/4923010973.html'}
+  model: api.listing
+  pk: 16
+- fields: {published: ! '2015-03-08 20:41:07+00:00', summary: Comes with two controllers,
+    title: N64 green &#x0024;15, url: 'http://newyork.craigslist.org/fct/vgm/4923010020.html'}
+  model: api.listing
+  pk: 17
+- fields: {published: ! '2015-03-08 20:29:22+00:00', summary: Like brand new bought
+      for my son by accident he wanted nba lol email me to buy it please it's already
+      a 30$ loss for me thanks !, title: WWE 2K15 for sale &#x0024;30, url: 'http://newyork.craigslist.org/wch/vgm/4922993031.html'}
+  model: api.listing
+  pk: 18
+- fields: {published: ! '2015-03-08 20:24:16+00:00', summary: "Willing to trade for
+      any xbox one or ps4 game or remote. Call or text me anytime at \n <a href=\"/fb/nyc/vgm/4916969101\"
+      class=\"showcontact\" title=\"click to show contact info\">show contact info</a>\n
+      Thanks. Joe.", title: MINT FIGHTER WITHIN XBOX ONE FOR SALE OR TRADE &#x0024;25,
+    url: 'http://newyork.craigslist.org/brx/vgm/4916969101.html'}
+  model: api.listing
+  pk: 19
+- fields: {published: ! '2015-03-08 20:23:11+00:00', summary: 'I''m selling a barely
+      used Xbox one with sunset overdrive, dead rising 3, and ryse son of Rome. The
+      system is like new barely used and adult owned. Includes all original accessories.',
+    title: Xbox one with 3 games (Midtown) &#x0024;275, url: 'http://newyork.craigslist.org/mnh/vgm/4922962153.html'}
+  model: api.listing
+  pk: 20
+- fields: {published: ! '2015-03-08 20:22:27+00:00', summary: "Willing to trade for
+      any xbox one or ps4 game or remote. Call or text me anytime at \n <a href=\"/fb/nyc/vgm/4911132826\"
+      class=\"showcontact\" title=\"click to show contact info\">show contact info</a>\n
+      Thanks. Joe.", title: MINT FIGHTER WITHIN XBOX ONE FOR SALE OR TRADE &#x0024;25,
+    url: 'http://newyork.craigslist.org/brx/vgm/4911132826.html'}
+  model: api.listing
+  pk: 21
+- fields: {published: ! '2015-03-08 20:21:55+00:00', summary: "For sale a like new
+      Xbox one with assassins creed black flag and assassins creed unity. Bought it
+      from best buy (still have the receipt somewhere) about a month ago and used
+      it 10 hours max. Bought on impulse - not really a gamer so it has to go. \nBo
+      [...]", title: Xbox One - Assassin's Creed pack + multiplayer subscription +
+      hdmi (Midtown East) &#x0024;370, url: 'http://newyork.craigslist.org/mnh/vgm/4922982128.html'}
+  model: api.listing
+  pk: 22
+- fields: {published: ! '2015-03-08 20:21:08+00:00', summary: "Hi. Text me anytime
+      at \n <a href=\"/fb/nyc/vgm/4899759154\" class=\"showcontact\" title=\"click
+      to show contact info\">show contact info</a>\n Thanks. Joe.", title: PS4 TOMB
+      RAIDER DEFINITIVE EDITION &#x0024;25, url: 'http://newyork.craigslist.org/brx/vgm/4899759154.html'}
+  model: api.listing
+  pk: 23
+- fields: {published: ! '2015-03-08 20:20:50+00:00', summary: "Hi. Text me anytime
+      at \n <a href=\"/fb/nyc/vgm/4892953745\" class=\"showcontact\" title=\"click
+      to show contact info\">show contact info</a>\n Thanks. Joe.", title: BRAND NEW
+      SEALED EVIL WITHIN PS4 &#x0024;40, url: 'http://newyork.craigslist.org/brx/vgm/4892953745.html'}
+  model: api.listing
+  pk: 24
+- fields: {published: ! '2015-03-08 20:20:42+00:00', summary: "Hi. No case with game.
+      Just in a black case. Mint no scratches. Willing to trade for any Xbox one or
+      ps4 game. Text me anytime at \n <a href=\"/fb/nyc/vgm/4891689814\" class=\"showcontact\"
+      title=\"click to show contact info\">show contact info</a>\n Thanks. Joe.",
+    title: NBA 2K14 XBOX ONE SALE OR TRADE &#x0024;15, url: 'http://newyork.craigslist.org/brx/vgm/4891689814.html'}
+  model: api.listing
+  pk: 25

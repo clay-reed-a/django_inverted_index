@@ -3,3 +3,4 @@
 inverted_index_env/
 build/
 db.sqlite3
+local_settings.py
