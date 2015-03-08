@@ -1,0 +1,1 @@
+web: gunicorn inverted_index.wsgi --log-file -
