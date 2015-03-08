@@ -20,6 +20,11 @@ class Listing(models.Model):
   published = models.DateTimeField()
   url = models.CharField(max_length=255)
 
+# These are routines are here to, 
+# upon creation of a listing,   
+# split it up into various Appearances and, 
+# as necessary, Words.    
+
 def tokenize_text(text):
   print(text) 
   text = text.lower()
