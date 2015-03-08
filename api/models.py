@@ -5,12 +5,14 @@ import re
 
 class Appearance(models.Model): 
   listing = models.ForeignKey('Listing') 
-  word = models.ForeignKey('Word')
+  word = models.ForeignKey('Word', related_name='appearances')
   location = models.IntegerField()
   section = models.CharField(max_length=255)
 
 class Word(models.Model): 
   content = models.CharField(max_length=255)
+  listings = models.ManyToManyField('Listing', through='Appearance')
+
 
 class Listing(models.Model): 
   summary = models.TextField()
