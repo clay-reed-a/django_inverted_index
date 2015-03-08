@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models.signals import post_save 
 
+import re 
 
 class Appearance(models.Model): 
   listing = models.ForeignKey('Listing') 
@@ -16,6 +17,18 @@ class Listing(models.Model):
   title = models.CharField(max_length=255)
   published = models.DateTimeField()
   url = models.CharField(max_length=255)
+
+def tokenize_text(text):
+  print(text) 
+  text = text.lower()
+  text = re.sub(r'<a.*?>|</a>', '', text) # strip a tags 
+  text = re.sub(r'[\-/]', ' ', text) 
+  text = re.sub(r'[.():,!?\[\]\+]+', '', text)
+  text = re.sub(r'&#x\d{4};\d{1,3}', '', text) # &#0032;123
+  words = text.split() 
+  print(words)  
+  return words 
+
 
 def index_section(instance, words, section_name): 
   word_location = 0 
@@ -36,8 +49,8 @@ def index_section(instance, words, section_name):
     word_location += 1  
 
 def index_listing(sender, instance, **kwargs):
-  title_words = instance.title.lower().split() 
-  summary_words = instance.summary.lower().split() 
+  title_words = tokenize_text(instance.title)
+  summary_words = tokenize_text(instance.summary)
 
   # must be in same order 
   sets_of_words = [title_words, summary_words]
