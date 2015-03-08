@@ -1,0 +1,4 @@
+
+*.py[co]
+inverted_index_env/
+build/
