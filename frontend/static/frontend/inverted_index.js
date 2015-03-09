@@ -23,7 +23,7 @@ services.service('Words',
       return $http(
         {
           method: 'GET',
-          url: 'api/words'
+          url: 'api/words/'
         }
       );
     };
@@ -32,7 +32,7 @@ services.service('Words',
       return $http(
         {
           method: 'GET',
-          url: 'api/words/'+wordId
+          url: 'api/words/'+wordId+'/'
         }
       );
     };
@@ -46,7 +46,7 @@ services.service('Listings',
       return $http(
         {
           method: 'GET', 
-          url: '/api/listings/s',
+          url: '/api/listings/s/',
           params: {
             q: queryString
           }
@@ -59,7 +59,7 @@ services.service('Listings',
       return $http(
         {
           method: 'GET', 
-          url: '/api/listings'
+          url: '/api/listings/'
         }
       );
     }
@@ -68,7 +68,7 @@ services.service('Listings',
       return $http(
         {
           method: 'GET', 
-          url: '/api/listings/'+listingId
+          url: '/api/listings/'+listingId+'/'
         }
       );
     }
@@ -87,7 +87,6 @@ controllers.controller('MainController',
     $scope.searchResults = null; 
     $scope.words = []; 
 
-    console.log("Yip yip!");
 
     Words.indexWords()
       .then(
