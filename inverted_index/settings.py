@@ -38,6 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'feedparser', 
     'api', 
+    'djangular',
+    'frontend',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -82,7 +84,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR+'/static/'
 
 import dj_database_url 
 DATABASES['default'] = dj_database_url.config()
@@ -91,15 +93,15 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ALLOWED_HOSTS = ['*']
 
-STATIC_ROOT = 'staticfiles'
-
 DEBUG = False 
+
+FIXTURE_DIRS = (
+    '/fixtures/'
+)
+
+STATIC_URL = '/static/'
 
 try:
     from .local_settings import *
 except ImportError:
     pass
-
-FIXTURE_DIRS = (
-    '/fixtures/'
-)

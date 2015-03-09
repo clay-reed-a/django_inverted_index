@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Jura|Press+Start+2P); 
+
+* {
+  font-family: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Jura';
+  background-color: #BDDE14; 
+  color: #143815;
+}
+
+h1, h2, h3 {
+  font-family: 'Press Start 2P';
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #266025;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+header h1,
+header nav,  
+nav li {
+  float: left;
+}
+
+nav li {
+  margin-left: 1em;
+}
+
+nav a {
+  font-size: 1.5em;
+}
+
+section h2 {
+  margin-bottom: 1em;
+}
+
+header.main {
+  padding: 1em;
+  width: 100%;
+  height: 2em;
+  margin-bottom: 2em;
+}
+
+section.main {
+  height: 100vh;
+}
+
+/* 
+*_default & *_results 
+toggle w/ app state 
+*/
+
+div.controls_default {
+  height: 100vh;
+}
+
+div.controls_results {
+  width: 100vw;
+  background-color: #BDDE14;
+  position: fixed;
+  top: 0;
+}
+
+section.search {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+section.search_default {
+  position: absolute;
+  width: 90%;
+  max-width: 25em; 
+  margin: auto; 
+  height: 13em;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+section.search_results {
+  width: 90%;
+}
+
+section.search_results h2 {
+  display: none;
+}
+
+.search_bar {
+  padding-top: 1em;
+  padding-left: 1em;
+  max-width: 20em;
+  margin: auto;
+  height: 4em;
+}
+
+.search_input,
+.search_button {
+  float: left;
+  height: 1em;
+  background-color: #BDDE14; 
+  color: #143815; 
+  border: 1px solid  #266025;
+  font-size: 2em;
+  border-radius: 2px;
+}
+
+.search_input:focus,
+.search_button:focus {
+  border: 1px solid white;
+  outline: none;
+}
+
+.search_input {
+  width: 78%;
+  margin-right: 8px;
+}
+
+.search_button {
+  width: 18%;
+}
+
+.results_section {
+  padding: 1em;
+  margin-top: 11em;
+}
+
+.results_section h2 {
+  z-index: 981;
+}
+
+.result_section {
+  padding: 1em;
+  border: 10px double #143815;
+  border-radius: 5px; 
+  margin-bottom: 1em;
+}
+
+.result_section h3 {
+  width: 75%;
+}
+
+.result_section p {
+  width: 90%;
+  padding: 1em;
+  max-width: 40em;
+}
+
+span.follow_through {
+  font-weight: 700;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>InvertedIndex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% load staticfiles %}
+  <script src="{% static 'frontend/angular.min.js' %}" type="text/javascript"></script>
+  <script src="{% static 'frontend/sanitize.js' %}" type="text/javascript"></script>
+  <script src="{% static 'frontend/underscore-min.js' %}" type="text/javascript"></script>
+  <script src="{% static 'frontend/inverted_index.js' %}" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'frontend/stylesheet.css' %}">
+</head>
+<body>
+  <main ng-app="invertedIndex">
+  <section class="main" ng-controller="MainController">
+    <div class="controls_default controls">
+      <header class="main">
+        <h1>Inverted <br>Indexing</h1>
+        <nav>
+          <ul>
+            <li><a href="about">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="search_default search">
+        <h2>Craigslist Videogame Search</h2>
+        <div class="search_bar">
+          <input class="search_input" ng-model="queryString">
+          <button class="search_button" ng-click="searchListings(queryString)">Go</button>
+        </div>
+      </section>
+    </div>
+    <section ng-show="searchResults" class="results_section hidden">
+      <h2>{$searchResults.length$} {$searchResults.length === 1 ? "Result" : "Results"$}</h2>
+      <ul class="results_list">
+        <li ng-repeat="result in searchResults">
+          <section class="result_section">
+            <h3 ng-bind-html="result.title | sanitize"></h3> 
+            <p><span ng-bind-html="result.summary | removeContactInfo | formatSummaryEnd"></span> <span class='follow_through'>&mdash; Interested? <a href="{$result.url$}">Read the Full Listing</a></span></p>
+          </section>
+        </li>
+      </ul>
+    </section>
+  </section>
+</main>
+</body>
+
+</html>
